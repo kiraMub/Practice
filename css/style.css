@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    background-color: white;
+    padding: 10px;
+    color: white;
+    display: flex;
+    margin-top: 40px;
+}
+.wrap{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+}
+.header-right{
+    display: flex;
+}
+.logo-title{
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.logo-title-color{
+    color:#F25822;
+}
+.logo-link{
+    margin-right: 14px;
+}
+.Home-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #F25822;
+}
+.About_Us-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.About_Us-title{
+    margin-left: 36px; 
+}
+.Services-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Services-title{
+    margin-left: 36px; 
+}
+.Features-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Features-title{
+    margin-left: 36px; 
+}
+.Team-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Team-title{
+    margin-left: 36px; 
+}
+.Blog-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Blog-title{
+    margin-left: 36px; 
+}
+.Contact-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Contact-title{
+    margin-left: 36px; 
+}
+.bth{
+    position:relative;
+    bottom: 0px;
+    margin-left: 36px; 
+}
+.bth-design{
+    display: inline-block;
+    background: #F25822;
+    border-radius: 30px;
+    padding: 13px 35px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image-title{
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin: 0 auto;
+    width: 522px;
+    height: 222px;
+    justify-content: center;
+}
+.image-title{
+    margin-top: 148px;
+    margin-right: 1025px;
+}
+.text1-title
+{
+    font-size: 20px;
+    line-height: 23px;
+    width: 466px;
+    height: 48px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+.bth2{
+    position:relative;
+    bottom: 0px;
+    margin-top: 50px;
+}
+.bth2-design{
+    display: inline-block;
+    background: #F25822;
+    border-radius: 30px;
+    padding: 13px 35px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
