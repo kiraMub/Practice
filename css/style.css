@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    color: white;
+    display: flex;
+    margin-top: 40px;
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+.wrap{
+    width: 1920px;
+    margin: 0 auto;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+}
+.header-right{
+    display: flex;
+}
+.logo-title{
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.logo-title-color{
+    color:#F25822;
+}
+.logo-link{
+    margin-right: 14px;
+}
+.Home-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #F25822;
+}
+.About_Us-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.About_Us-title{
+    margin-left: 36px; 
+}
+.Services-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Services-title{
+    margin-left: 36px; 
+}
+.Features-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Features-title{
+    margin-left: 36px; 
+}
+.Team-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Team-title{
+    margin-left: 36px; 
+}
+.Blog-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Blog-title{
+    margin-left: 36px; 
+}
+.Contact-title{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: black;
+}
+.Contact-title{
+    margin-left: 36px; 
+}
+.bth{
+    position: relative;
+    bottom: 0px;
+    margin-left: 36px; 
+}
+.bth-design{
+    display: inline-block;
+    background: #F25822;
+    border-radius: 30px;
+    padding: 13px 35px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.promo-left{
+    margin-left: 50px;
+}
+.image-title{
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin: 0 auto;
+    width: 522px;
+    height: 222px;
+    justify-content: center;
+}
+.image-title{
+    margin-top: 148px;
+}
+.text1-title
+{
+    font-size: 20px;
+    line-height: 23px;
+    width: 466px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+.bth2{
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+    
+}
+.bth2-design{
+    display: inline-block;
+    background: #F25822;
+    border-radius: 30px;
+    padding: 13px 35px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.promo{
+    background-color: white;
+    width: 1920px;
+    height: 700px;
+    margin: 0 auto;
+}
+.promo-wrap{
+    display: flex;
+    margin-top: 108px;
+    background-image:url(../img/element.png);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: center;
+    background-size: 770px, 384px;
+}
+.promo-left{
+    display: block;
+    width: 543px;
+    height: 374px;
+    margin-left: 352px;
+}
+.promo-right{
+    background-image: url(../img/image.png);
+    width: 945px;
+    height: 577px;
+    
+}
+.image-title{
+    font-size: 60px;
+    line-height: 70px;
+    width: 522px;
+    height: 222px;
+    justify-content: start;
+}
+.text1-title
+{
+    font-size: 20px;
+    line-height: 23px;
+    width: 466px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-top: 17px;
+}
+.bth2{
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+}
+.bth2-design{
+    display: inline-block;
+    background: #F25822;
+    border-radius: 30px;
+    padding: 13px 35px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.firms-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firms{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 97px;
+}
+.about{
+    background-color: #FAFAFA;
+    background-image: url(../img/vectors.png);
+    background-position-y: center;
+    background-position-x: 26px ;
+    width: 1920px;
+    height: 540px;
+    margin: 0 auto;
+}
+.about-wrap{
+    margin-top: 97px;
+    display: flex;
+}
+.about-left{
+    display: block;
+    margin-top: 127px;
+    margin-left: 374px;
+}
+.macbook-title{
+    width: 409px;
+    height: 112px;
+    font-size: 45px;
+    line-height: 53px;
+}
+.text2-title{
+    margin-top: 20px;
+    width: 515px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+.bth3{
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+}
+.bth3-design{
+    display: inline-block;
+    background: #F25822;
+    border-radius: 30px;
+    padding: 13px 35px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.about-right{
+    display: flex;
+}
+.center{
+    padding: 0 calc(50%-1920px/2);
+}
+.categoties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 140px;
+    margin-bottom: 100px;
+}
+.featurs1,.featurs2,.featurs3{
+    background-color: white;
+    width: 310px;
+    height: 226px;
+    margin-left: 61px;
+}
+.pink-title,.green-title,.yellow-title{
+    margin-top: 25px;
+}
+.featurs1-title,.featurs2-title,.featurs3-title{
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-top: 17px;
+}
+.bth_yellow,.bth_green,.bth_pink{
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+    margin-top: 25px;
+    font-weight:bold;
+}
+.service{
+    background-color: #FAFAFA;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 92px;
+}
+.servis-centr{
+    text-align: center;
+}
+.service-title{
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+.text3-title{
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    width: 682px;
+    height: 48px;
+    margin: 0 auto;
+}
+.service-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service1,.service2,.service3{
+    margin-top: 55px;
+    width: 370px;
+    height: 549px;
+    background-color: white;
+    display: block;
+    margin-right: 17px;
+}
+.service1-title,.service2-title,.service3-title{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+.keyword-title,.seo-title,.Social-title{
+    width: 310px;
+    height: 63px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-left: 30px;
+}
+.bthservice1,.bthservice2,.bthservice3{
+    position: relative;
+    bottom: 0px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.bthservice1-design,.bthservice2-design,.bthservice3-design{
+    display: inline-block;
+    background: #F25822;
+    border-radius: 30px;
+    padding: 13px 35px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.what{
+    display: flex;
+}
+.what-left{
+    background-image: url(../img/compas.png);
+    width: 945px;
+    height: 800px;
+}
+.compas-title{
+    padding-top: 107px;
+    width: 557px;
+    height: 112px;
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+.text4-title{
+    width: 570px;
+    height: 41px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+.social,.email,.seo{
+    display: flex;
+    margin-top: 79px;
+}
+.earth-right,.email-right,.seo-right{
+    display: block;
+    margin-left: 29px;
+}
+.earth-title,.email-title,.seos-title{
+    width: 219px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    text-align: left;
+}
+.social-title,.marketing-title,.optimization-title{
+    width: 362px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+.funfact{
+    padding-top: 143px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Happy-title,.Project-title,.Years-title,.National-title{
+    width: 93px;
+    height: 105px;
+    font-size: 70px;
+    line-height: 150%;
+    color: #666666;
+    margin-right: 188px;
+    text-align: center;
+}
+.Happy_Clients-title,.Project_Done-title,.Years_of_Experience-title,.National_Awards-title{
+    width: 156px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #666666;
+    text-align: center;
+}
